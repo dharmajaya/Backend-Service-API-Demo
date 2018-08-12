@@ -6,7 +6,7 @@ import (
   "src/github.com/astaxie/beego/validation"
   _ "src/github.com/astaxie/beego/cache/redis"
   //"src/github.com/uuid"
-  "../vendor/github.com/twinj/uuid"
+  "github.com/twinj/uuid"
   "../models"
 )
 

@@ -5,7 +5,7 @@ import (
   "src/github.com/astaxie/beego/cache"
   _ "src/github.com/astaxie/beego/cache/redis"
   "src/github.com/astaxie/beego/utils/captcha"
-  "../vendor/github.com/twinj/uuid"
+  "github.com/twinj/uuid"
 )
 
 

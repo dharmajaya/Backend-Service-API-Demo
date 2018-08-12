@@ -1,6 +1,6 @@
 package controllers
 
-import "../vendor/golang.org/x/crypto/bcrypt"
+import "golang.org/x/crypto/bcrypt"
 
 func clearMemory(b []byte) {
   for i := 0; i < len(b); i++ {
